@@ -2,15 +2,15 @@
   <header>
       <div class="hlinks">
             <ul>
-              <li>Download App</li>
-              <li>Advertise with us</li>
+              <li id="space">Download App</li>
+              <li id="space">Advertise with us</li>
           </ul>
 
           <ul>
-              <li>FB</li>
-              <li>IG</li>
-              <li>Tw</li>
-              <li>YT</li>
+              <li id="space">FB</li>
+              <li id="space">IG</li>
+              <li id="space">Tw</li>
+              <li id="space">YT</li>
           </ul>
       </div>
       <div class="logo">
@@ -18,14 +18,8 @@
       </div>
       <nav>
           
-          <ul>
-              <li>Home</li>
-              <li>Recipes</li>
-              <li>Places</li>
-              <li>Blog</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Searc</li>
+          <ul v-for="item in options" :key="item" >
+              <li id="space" >{{item}}</li>  
           </ul>
       </nav>
   </header>
@@ -33,7 +27,14 @@
 
 <script>
 export default {
-name: "Header"
+name: "Header",
+data: () => {
+  return {
+    options: [
+        'Home', 'Recipes', 'Places', 'Blog', 'About', 'Contact', 'Search'
+      ],
+    };
+  }
 }
 </script>
 
@@ -46,8 +47,9 @@ header {
 ul {
     list-style: none;
 }
-li {
+#space {
     display: inline;
+    margin-left: 50px;
 }
 
 .hlinks {
