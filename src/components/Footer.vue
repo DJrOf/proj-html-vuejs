@@ -103,6 +103,7 @@ text-align: center;
 
 .appli {
   display: block;
+  margin-right: 80px;
 }
 
 .copyright {
