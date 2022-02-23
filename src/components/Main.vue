@@ -111,7 +111,7 @@
 
 
       <div class="fttcont">
-
+        <!-- RIGHT COLUMN -->
         <div class="left">
           <div class="fttarticle">
             <div class="fttimg"></div>
@@ -202,6 +202,8 @@
       </div>
     </section>
 
+    <!-- SUBSCRIBE SECTION -->
+
     <section class="subscribe">
       <div class="textsub">
         <h2>Subscribe &#38; Receive A Free eBook</h2>
@@ -214,6 +216,8 @@
           <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
       </div>
     </section>
+
+  <!-- REEL SECTION -->
 
     <section class="reel">
       <div class="reelpics">
@@ -276,6 +280,8 @@ data: () => {
 
 <style>
 
+/* JUMBOTRON */
+
 .jumbotron {
   background-image: url("../assets/img/single-post-img3-1200x790.jpg");
   background-size: cover;
@@ -301,13 +307,15 @@ data: () => {
 .pick {
   background-color: orange;
   border-radius: 18px;
-  width: fit-content;
- text-align: center;
+  width: 150px;
+  margin-left: 145px;
 }
 
 .corner {
   margin-top: 20px;
 }
+
+/* Foodie Journal */
 
 .journal {
   display: flex;
@@ -353,6 +361,8 @@ padding: 0;
   width: 300px;
 }
 
+/* Popular Recipes */
+
 .recipes {
   margin-top: 400px;
   display: flex;
@@ -360,6 +370,8 @@ padding: 0;
   justify-content: center;
   background-color: aliceblue;
 }
+
+/* Culinary Collection */
 
 .rectext {
   text-align: center;
@@ -437,6 +449,8 @@ background-color: white;
   width: 100px;
 }
 
+/* Farm to Table Section */
+
 .farmtotable {
   padding: 2%;
   height: 2200px;
@@ -461,6 +475,8 @@ background-color: white;
   display: flex;
   justify-content: space-around;
 }
+
+/* Left col */
 
 .left {
   width: calc((100vw / 12) * 8 - 400px );
@@ -502,13 +518,15 @@ background-color: white;
   background-color: white;
 }
 
+/* Right col */
+
 .right {
   width: calc((100vw / 12) * 4 - 100px );
   height: 800px;
 }
 
 .picblog {
-  width: 275px;
+  width: 200px;
   margin: 0;
 }
 
@@ -640,6 +658,8 @@ padding: 5%;
   border-radius: 50%; 
 }
 
+/* Subscribe Section */
+
 .subscribe {
   background-image: url('~@/assets/img/subscribe-sec-bg.png');
   background-repeat: no-repeat;
@@ -673,6 +693,8 @@ padding: 5%;
 .formail {
   margin-bottom: 20px;
 }
+
+/* Reel */
 
 .reelpics {
 height: 500px;
