@@ -511,11 +511,17 @@ background-color: white;
   background-image: url('~@/assets/img/single-post-img3-600x395.jpg');
   background-repeat: no-repeat;
   background-position: cover; 
+  
 }
 
 .ftcontent {
   padding: 3%;
   background-color: white;
+}
+
+.picblog {
+  width: 275px;
+  margin: 0;
 }
 
 /* Right col */
@@ -525,10 +531,7 @@ background-color: white;
   height: 800px;
 }
 
-.picblog {
-  width: 200px;
-  margin: 0;
-}
+
 
 .blogli {
   margin-top: 20px;
